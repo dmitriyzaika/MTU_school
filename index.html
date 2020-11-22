@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MTU</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+ 	<div>
+ 		<div>PAGE TITLE</div>
+ 		<p>
+ 			<button id="start" class="">Start</button>
+ 			<button id="new-game">New Game</button>
+ 			<input type="text" id="score" disabled="true">
+ 			<input type="text" id="timer" value="60" disabled="true">
+ 			<span id="cube-vars"></span>
+ 		</p>
+ 		<div id="popup-wrapper">
+ 			<div class="popup">
+ 				<span id="total-score"></span>
+ 				<input type="text" id="name">
+ 				<button id="save">Save</button>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="row">
+ 		<div class="col-md-8" id="game-field">
+ 		</div>
+ 		<div class="mainn2 col-md-4">
+ 			<h1>
+ 				Results
+ 			</h1>
+ 			<div id="results-table">
+ 				<div>
+	 				<span class="name"></span>
+	 				<span class="score"></span>
+	 			</div>
+ 			</div>
+ 		</div>
+ 	</div>
+</body>
+</html>
